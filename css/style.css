@@ -716,7 +716,7 @@
 
 
     .recruit_banner, .cc_banner{
-        width: 30%;
+        width: 32%;
         margin: auto 30px;
     }
     .top_banner img{
@@ -725,7 +725,7 @@
         margin-bottom:30px;
     }
 
-    .banner_txt{
+    .banner_txt {
         margin-bottom: 30px;
     }
 
