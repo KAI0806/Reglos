@@ -4488,9 +4488,9 @@
         white-space: nowrap;
         overflow: hidden;
         background: url(../img/top/img/h1_tl_mainv_sp%402x.png);
-        background-size: 15px auto;
+        background-size: 20px auto;
         background-repeat: no-repeat;
-        height: 240px
+        height: 340px
     }
     #canvas-container_wrap {
         position: absolute;
