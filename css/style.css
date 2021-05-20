@@ -714,6 +714,9 @@
         margin: 130px auto 100px;
     }
 
+    .top_banner a{
+        color: #202253;
+    }
 
     .recruit_banner, .cc_banner{
         width: 32%;
@@ -5781,6 +5784,12 @@
     .container a {
         color: #d4d6d887;
     }
+
+
+    .top_banner a{
+        color: #202253;
+    }
+
     .contact_head p a {
         color: #4d576d;
         text-decoration: underline
