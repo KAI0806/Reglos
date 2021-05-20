@@ -711,7 +711,7 @@
         width: 1000px;
         display: flex;
         justify-content: center;
-        margin: 40px auto 100px;
+        margin: 130px auto 100px;
     }
 
 
@@ -4535,15 +4535,19 @@
     }
     .top_banner{
         flex-direction: column;
+        margin-top: 60px;
     }
 
     .recruit_banner{
-        margin-bottom: 25px;
+        margin-bottom: 40px;
+    }
+
+    .top_banner p{
+        margin-bottom: 10px;
     }
 
     .top_banner img{
         width: 60%;
-        margin-bottom: 20px;
         box-shadow: 0px 0px 5px rgba(141, 141, 141, 0.8);
     }
 
