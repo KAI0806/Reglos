@@ -1681,9 +1681,9 @@
     }
     footer .link_list_box {
         position: absolute;
-        top: 132px;
+        top: 100px;
         right: 0;
-        width: 620px;
+        width: 540px;
         text-align: right
     }
     footer .link_list_box li {
