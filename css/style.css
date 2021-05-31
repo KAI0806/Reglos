@@ -500,12 +500,11 @@
 
     .gnav_banner{
         background: white;
-        height: 180px;
+        height: 210px;
         width: 30%;
         position: fixed;
         bottom: 0;
         right: 0;
-        padding-top: 30px;
         z-index: 10000;
     }
 
@@ -523,6 +522,7 @@
 
     .gnav_banner .recruit_banner, .gnav_banner .cc_banner{
         width: 100%;
+        margin: 20px 0;
     }
 
     .gnav_banner a{
@@ -533,7 +533,7 @@
     }
 
     .gnav_banner p, .gnav_banner img{
-        width: 50%;
+        width: 40%;
     }
 
     .gnav_banner .banner_txt{
@@ -4411,6 +4411,50 @@
         bottom: -3px;
         left: 0
     }
+
+    .gnav_banner{
+        background: white;
+        height: 125px;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        z-index: 10000;
+    }
+
+    .gnav_wrap::after{
+        transform: skewX(-45deg);
+        content: "";
+        position: fixed;
+        bottom: 0;
+        right: 180px;
+        z-index: 9999;
+        background: white;
+        height: 120px;
+        width: 40%;
+    }
+
+    .gnav_banner .recruit_banner, .gnav_banner .cc_banner{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .gnav_banner a{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .gnav_banner p, .gnav_banner img{
+        width: 40%;
+        font-size: 5px;
+    }
+
+    .gnav_banner .banner_txt{
+        margin-bottom: 0;
+    }
+
     .main_v_area_wrap {
         height: 80vh;
         position: relative
